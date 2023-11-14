@@ -28,5 +28,16 @@ header {
     margin-left: 20px;
 }
 
+#button-add {
+    background-color: white;
+    height: 60px;
+    width: 50%;
+    margin: 40px auto 3px auto;
+}
 
-
+#main-container {
+    background-color: white;
+    height: 400px;
+    width: 50%;
+    margin: 0 auto;
+}
