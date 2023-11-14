@@ -6,8 +6,7 @@
 }
 
 body {
-    /*background-color: rgb(246 248 249);*/
-    background-color: gray;
+    background-color: rgb(246 248 249);
 }
 
 header {
@@ -35,7 +34,7 @@ header {
     height: 60px;
     width: 50%;
     margin: 40px auto 3px auto;
-    border-radius: 1%;
+    border-radius: 5px;
     line-height: 60px;
 }
 
@@ -45,7 +44,7 @@ header {
     padding: 5px 10px;
     font-size: 15px;
     font-weight: 500;
-    border-radius: 10%;
+    border-radius: 8px;
 }
 
 .add.task {
@@ -63,8 +62,81 @@ header {
 
 #main-container {
     background-color: white;
-    height: 400px;
+    height: 680px;
     width: 50%;
     margin: 0 auto;
-    border-radius: 1%;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+
+.triangle {
+    font-size: 13px;
+    line-height: 1.5em;
+    vertical-align: middle;
+}
+
+ul {
+    list-style-position: inside;
+    list-style-type: none;
+    margin-bottom: 40px;
+}
+
+li {
+    margin-top: 30px;
+}
+
+.bulleted-list {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.check {
+    color: green;
+}
+
+.cross {
+    color: red;
+}
+
+.label {
+    font-size: 13px;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.editorial {
+    background-color: rgb(69 171 234);
+}
+
+.q1-goals {
+    background-color: rgb(156 114 228);
+}
+
+.recruting {
+    background-color: rgb(100 192 169);
+}
+
+.mobile {
+    background-color: rgb(242 158 51);
+}
+
+.website {
+    background-color: rgb(216 99 161);
+}
+
+.sales {
+    background-color: rgb(176 201 38);
+}
+
+.editorial-review {
+    background-color: rgb(242 158 51);
 }
