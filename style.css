@@ -11,7 +11,7 @@ body {
 
 header {
     height: 90px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     line-height: 90px;
 }
 
@@ -30,7 +30,7 @@ header {
 
 
 #button-add {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     height: 60px;
     width: 50%;
     margin: 40px auto 3px auto;
@@ -50,18 +50,18 @@ header {
 .add.task {
     margin-left: 30px;
     background-color: rgb(30 144 255);
-    color: white;
+    color: rgb(255, 255, 255);
     border: 1px solid rgb(30 144 255);
 }
 
 .add.section {
-    background-color: white;
-    color: gray;
+    background-color: rgb(255, 255, 255);
+    color: grgb(128 128 128);
     border: 1px solid rgb(128 128 128);
 }
 
 #main-container {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     height: 680px;
     width: 50%;
     margin: 0 auto;
@@ -100,11 +100,11 @@ li {
 }
 
 .check {
-    color: green;
+    color: rgb(0, 128, 0);
 }
 
 .cross {
-    color: red;
+    color: rgb(255, 0, 0);
 }
 
 .label {
@@ -125,7 +125,7 @@ li {
     background-color: rgb(100 192 169);
 }
 
-.mobile {
+.mobile, .editorial-review {
     background-color: rgb(242 158 51);
 }
 
@@ -135,8 +135,4 @@ li {
 
 .sales {
     background-color: rgb(176 201 38);
-}
-
-.editorial-review {
-    background-color: rgb(242 158 51);
 }
